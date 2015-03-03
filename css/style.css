@@ -1,5 +1,14 @@
 html { margin:0; padding:0 }
-			
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}			
 body { 
 	background: #fff; 
 	color: #000; 
@@ -21,9 +30,6 @@ body {
 	font-weight: bold
 }
 
-.girl {
-	color: #36494E;
-}
 
 h1 { 
 	font-family: 'Laila', serif;
@@ -39,15 +45,6 @@ h2{
 	font-weight: 900;
 }
 
-#footer { 
-	position: absolute; 
-	bottom: 0; 
-	width: 100%; 
-	height: 60px; 
-	text-align: center; 
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-color: #36494E
-	}
 			
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }	
@@ -72,3 +69,12 @@ h1, h2, #block {
 			a { color: #EE85B5; text-decoration: none;}
 			a:hover { text-decoration: underline; }
 			
+#footer { 
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	height: 60px; 
+	text-align: center; 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-color: #36494E
+	}
