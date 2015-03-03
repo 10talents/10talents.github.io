@@ -9,6 +9,7 @@ html { margin:0; padding:0 }
   /* Pad bottom by footer height */
   padding: 0 0 60px;
 }			
+/*
 body { 
 	background: #fff; 
 	color: #000; 
@@ -19,6 +20,7 @@ body {
 	padding: 0; 
 	width: 100%; 
 	}
+*/
 #block { 
 	margin:auto auto;
 	margin-top: 100px;
